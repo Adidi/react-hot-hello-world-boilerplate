@@ -11,3 +11,4 @@ super simple example to get you start with react:
 npm install
 npm start
 ```
+open `http://localhost:3000/`
