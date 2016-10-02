@@ -1,10 +1,10 @@
 # React Webpack Hot Loader example
-super simple example to get you start with react:
-* React
-* Webpack
-* React Hot Loading
+super simple bare minimum example to get you start with react:
+* react
+* webpack
+* react Hot Loading
 * express
-* Scss
+* scss
 
 ## Installation
 ```
