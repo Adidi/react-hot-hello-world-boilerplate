@@ -15,7 +15,8 @@ module.exports = {
     },
 
     module: {
-        loaders: [{
+        loaders: [
+            {
                 test: /\.jsx?$/,
                 exclude: /node_modules/,
                 loaders: ['babel'],
@@ -25,10 +26,15 @@ module.exports = {
                 test: /\.scss/,
                 loaders: [
                     'style',
-                    'css?sourceMap',
+                    'css',
                     'sass?sourceMap'
                 ],
                 include: path.join(__dirname, 'src/scss')
+            },
+            {
+                test: /\.(png|jpg)$/,
+                loader: 'url-loader?limit=8192',
+                include: path.join(__dirname, 'src')
             }
         ]
     },
