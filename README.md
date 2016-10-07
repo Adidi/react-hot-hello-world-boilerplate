@@ -5,6 +5,7 @@ super simple bare minimum example to get you start with react:
 * react Hot Loading
 * express
 * scss
+* working with images
 
 ## Installation
 ```
