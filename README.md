@@ -2,7 +2,7 @@
 super simple bare minimum example to get you start with react:
 * react
 * webpack
-* react Hot Loading
+* react hot loading
 * express
 * scss
 * working with images
