@@ -1,0 +1,24 @@
+
+.images{
+  position: absolute;
+  left: 20px;
+  top: 30%;
+  display: flex;
+
+  > div{
+    margin: 0 10px;
+  }
+
+  .cat-regular{
+    width: 202px;
+    height: 250px;
+    background-image: url('/img/cat.jpg');
+  }
+
+  .cat-base{
+    width: 175px;
+    height: 288px;
+    /* relative to the main.scss not this partial */
+    background-image: url('../img/cat.jpg');
+  }
+}

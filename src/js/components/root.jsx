@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react';
 import App from './app';
+import Images from './images';
 
 class Root extends React.Component{
 
@@ -14,6 +15,7 @@ class Root extends React.Component{
             <div>
                 <App/>
                 <div className="root">Hello {name}</div>
+                <Images />
             </div>
         )
     }
