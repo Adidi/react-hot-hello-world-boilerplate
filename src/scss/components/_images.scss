@@ -1,13 +1,11 @@
 
 .images{
   position: absolute;
-  left: 20px;
   top: 30%;
+  width: 100%;
   display: flex;
-
-  > div{
-    margin: 0 10px;
-  }
+  justify-content: space-around;
+  flex-wrap: wrap;
 
   .cat-regular{
     width: 202px;
